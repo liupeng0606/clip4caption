@@ -2,3 +2,4 @@ extracted_feats/msvd/MSVD_CLIP4Clip_features.pickle filter=lfs diff=lfs merge=lf
 extracted_feats/msrvtt/MSRVTT_CLIP4Clip_features.pickle filter=lfs diff=lfs merge=lfs -text
 feature_extractor/pretrained_clip4clip/msvd/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
 feature_extractor/pretrained_clip4clip/msrvtt/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+checkpoints/msrvtt/clip4caption_vit-b-32_model.bin filter=lfs diff=lfs merge=lfs -text
