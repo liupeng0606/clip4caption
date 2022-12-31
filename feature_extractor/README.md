@@ -31,6 +31,3 @@ python clip_feature_extractor.py --dataset_type msrvtt --save_dir ../extracted_f
 ```
 
 Note that you may need to modify the arguments as per your needs.
-
-## Details
-To be added
