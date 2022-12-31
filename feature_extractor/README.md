@@ -20,14 +20,17 @@ Dowload the raw videos of MSVD ([link](https://www.cs.utexas.edu/users/ml/clamp/
 │   │   ├── MSRVTT_data.json # metadata of msrvtt dataset, which includes video url, video id, and caption
 ```
 ## Extract the Features
-Execute the following command to extract the features:
+Execute the following command to extract the features and to save the features at `../extracted_feats` folder:
 ### MSVD
 ```bash
-python clip_feature_extractor.py --dataset_type msvd
+python clip_feature_extractor.py --dataset_type msvd --save_dir ../extracted_feats
 ```
 ### MSR-VTT
 ```bash
-python clip_feature_extractor.py --dataset_type msrvtt
+python clip_feature_extractor.py --dataset_type msrvtt --save_dir ../extracted_feats
 ```
+
+Note that you may need to modify the arguments as per your needs.
+
 ## Details
 To be added
