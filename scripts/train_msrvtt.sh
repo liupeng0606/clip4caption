@@ -4,7 +4,7 @@ N_GPU=2
 N_THREAD=16
 
 DATA_PATH=../dataset/MSRVTT/MSRVTT_data.json
-CKPT_ROOT=../ckpts
+CKPT_ROOT=../checkpoints
 INIT_MODEL_PATH=../weight/univl.pretrained.bin
 # Path to the features you extracted from CLIP4Clip
 FEATURES_PATH=../extracted_feats/msvd/MSVD_CLIP4Clip_features.pickle
