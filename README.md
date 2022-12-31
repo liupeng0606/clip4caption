@@ -1,5 +1,5 @@
 # Reproducing CLIP4Caption
-This is unofficial implementation of CLIP4Caption method.
+This is the first unofficial implementation of CLIP4Caption method.
 
 **Note**: The provided extracted features are not extracted using TSN sampling as in the CLIP4Caption paper. It is found that even without TSN sampling, i.e., only using original sampling method in CLIP4Clip, the similar (slightly better) performance results can be achieved as in the CLIP4Caption paper. In my experiment, using TSN sampling could not achieve the similar performance results as in the paper.
 
