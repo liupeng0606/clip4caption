@@ -10,7 +10,7 @@ This is the first unofficial implementation of CLIP4Caption method.
 | Method  | BLEU@4 | METEOR | ROUGE-L | CIDEr | Checkpoint |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | CLIP4Caption* (ViT-B/32) | 46.1  | 30.7  | 63.7  | 57.7  | - |
-| CLIP4Caption (ViT-B/32)  | 46.63  | 30.73  | 63.86 | 58.46  | - |
+| CLIP4Caption (ViT-B/32)  | 46.63  | 30.73  | 63.86 | 58.46  | [link](https://github.com/willyfh/clip4caption/raw/main/checkpoints/msrvtt/clip4caption_vit-b-32_model.bin) |
 
 (*) Original results from the paper
 
