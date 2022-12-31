@@ -29,6 +29,5 @@ python clip_feature_extractor.py --dataset_type msvd
 ```bash
 python clip_feature_extractor.py --dataset_type msrvtt
 ```
-
 ## Details
 To be added
