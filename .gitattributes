@@ -1,0 +1,2 @@
+extracted_feats/msrvtt filter=lfs diff=lfs merge=lfs -text
+extracted_feats/msvd filter=lfs diff=lfs merge=lfs -text
