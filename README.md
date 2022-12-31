@@ -10,29 +10,51 @@ This is the first unofficial implementation of CLIP4Caption method.
 | Method  | BLEU@4 | METEOR | ROUGE-L | CIDEr | Checkpoint |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | CLIP4Caption* (ViT-B/32) | 46.1  | 30.7  | 63.7  | 57.7  | - |
-| CLIP4Caption (ViT-B/32)  | 46.63  | 30.73  | 63.86 | 58.46  | [link](https://github.com/willyfh/clip4caption/raw/main/checkpoints/msrvtt/clip4caption_vit-b-32_model.bin) |
+| CLIP4Caption (ViT-B/32)  | -  | -  | - | -  | [link]() |
+| CLIP4Caption (ViT-B/16)  | - | -  | - | - | - |
+
 
 (*) Original results from the paper
 
 ## Setup
-### Preliminary
-To be added
+Execute below scripts in the main folder, to avoid download conflict when doing distributed pretrain.
 
-### Requirements
-To be added
+```bash
+mkdir modules/bert-base-uncased
+cd modules/bert-base-uncased/
+wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt
+mv bert-base-uncased-vocab.txt vocab.txt
+wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz
+tar -xvf bert-base-uncased.tar.gz
+rm bert-base-uncased.tar.gz
+cd ../../
+```
+
+Prepare the conda environment:
+```bash
+conda create -n clip4caption python=3.6.9 tqdm boto3 requests pandas
+conda activate clip4caption
+pip install torch==1.10.2 torchvision --extra-index-url https://download.pytorch.org/whl/cu113
+pip install git+https://github.com/Maluuba/nlg-eval.git@master
+pip install pycocoevalcap
+pip install pickle5
+pip install opencv-python==4.5.5.62
+```
+
+Download the pretrained weight of UniVL:
+```bash
+mkdir -p ./weight
+wget -P ./weight https://github.com/microsoft/UniVL/releases/download/v0/univl.pretrained.bin
+```
 
 ## Extract the Features
-To be added
+The extracted features are provided [here](https://github.com/willyfh/clip4caption/tree/main/extracted_feats). However if you want to extract the features by yourself, follow the instructions written [here](https://github.com/willyfh/clip4caption/tree/main/feature_extractor)
 
 ## Training
-To be added
+A shell script to train the model is provided [here](https://github.com/willyfh/clip4caption/tree/main/scripts). You may need to modify the scripts as per your needs.
 
 ## Testing
 To be added
 
-## Details
-To be added
-
 ## References
-To be added
-
+This repository is implemented based on [UniVL](https://github.com/microsoft/UniVL) and [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip)
