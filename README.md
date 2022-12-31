@@ -9,10 +9,10 @@ This is the first unofficial implementation of CLIP4Caption method.
 ### MSRVTT
 | Method  | BLEU@4 | METEOR | ROUGE-L | CIDEr | Checkpoint |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| CLIP4Caption (ViT-B/32) | 46.1  | 30.7  | 63.7  | 57.7  | - |
-| CLIP4Caption* (ViT-B/32)  | 46.63  | 30.73  | 63.86 | 58.46  | - |
+| CLIP4Caption* (ViT-B/32) | 46.1  | 30.7  | 63.7  | 57.7  | - |
+| CLIP4Caption (ViT-B/32)  | 46.63  | 30.73  | 63.86 | 58.46  | - |
 
-(*) The reproduced results
+(*) Original results from the paper
 
 ## Setup
 ### Preliminary
