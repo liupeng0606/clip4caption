@@ -47,14 +47,11 @@ mkdir -p ./weight
 wget -P ./weight https://github.com/microsoft/UniVL/releases/download/v0/univl.pretrained.bin
 ```
 
-## Extract the Features
+## Extract the Video Features
 The extracted features are provided [here](https://github.com/willyfh/clip4caption/tree/main/extracted_feats). However if you want to extract the features by yourself, follow the instructions written [here](https://github.com/willyfh/clip4caption/tree/main/feature_extractor)
 
-## Training
-A shell script to train the model is provided [here](https://github.com/willyfh/clip4caption/tree/main/scripts). You may need to modify the scripts as per your needs.
-
-## Testing
-To be added
+## Training & Evaluation
+The shell scripts to train and to evaluate the model is provided [here](https://github.com/willyfh/clip4caption/tree/main/scripts). You may need to modify the scripts as per your needs.
 
 ## References
 This repository is implemented based on [UniVL](https://github.com/microsoft/UniVL) and [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip)
