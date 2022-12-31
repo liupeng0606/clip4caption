@@ -1,2 +1,5 @@
 extracted_feats/msrvtt filter=lfs diff=lfs merge=lfs -text
 extracted_feats/msvd filter=lfs diff=lfs merge=lfs -text
+extracted_feats/*.pickle filter=lfs diff=lfs merge=lfs -text
+extracted_feats/msvd/MSVD_CLIP4Clip_features.pickle filter=lfs diff=lfs merge=lfs -text
+extracted_feats/msrvtt/MSRVTT_CLIP4Clip_features.pickle filter=lfs diff=lfs merge=lfs -text
