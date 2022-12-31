@@ -2,6 +2,7 @@
 ## Prepare the Dataset
 Dowload the raw videos of MSVD ([link](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)) and MSR-VTT ([link](https://github.com/VisionLearningGroup/caption-guided-saliency/issues/6)), and put the videos in `raw` folder as displayed below
 ```bash
+├── feature_extractor
 ├── dataset
 │   ├── MSVD
 │   │   ├── raw # put the 1970 raw videos in here
