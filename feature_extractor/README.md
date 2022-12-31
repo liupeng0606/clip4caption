@@ -17,7 +17,7 @@ Dowload the raw videos of MSVD ([link](https://www.cs.utexas.edu/users/ml/clamp/
 │   │   ├── MSRVTT_data.json # metadata of msrvtt dataset, which includes video url, video id, and caption
 ```
 ## Prepare the pretrained model
-Train CLIP4Clip based on https://github.com/ArrowLuo/CLIP4Clip and put the pretrained model in the `pretrained_clip4clip/msvd` or `pretrained_clip4clip/msrvtt` folder.
+Train CLIP4Clip model using https://github.com/ArrowLuo/CLIP4Clip , and put the pretrained model in the `pretrained_clip4clip/msvd` or `pretrained_clip4clip/msrvtt` folder.
 
 ## Extract the Features
 Execute the following command to extract the features:
