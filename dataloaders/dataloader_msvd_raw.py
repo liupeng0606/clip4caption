@@ -33,7 +33,7 @@ class MSVD_Raw_DataLoader(Dataset):
             data_path,
             videos_path,
             max_words=30,
-            feature_framerate=1.0,
+            feature_framerate=1,
             max_frames=100,
             image_resolution=224,
             frame_order=0,

@@ -38,7 +38,7 @@ class MSRVTT_Raw_DataLoader(Dataset):
             csv_path,
             videos_path,
             max_words=73,
-            feature_framerate=1.0,
+            feature_framerate=1,
             max_frames=20,
             image_resolution=224,
             frame_order=0,
