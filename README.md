@@ -16,8 +16,13 @@ To be added
 To be added
 
 ## Training
+To be added
 
 ## Testing
+To be added
+
+## Pretrained Models
+To be added
 
 ## Details
 To be added
