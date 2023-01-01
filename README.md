@@ -1,5 +1,5 @@
 # Reproducing CLIP4Caption
-This is the first unofficial implementation of CLIP4Caption method.
+This is the first unofficial implementation of CLIP4Caption method, which is the SOTA method in video captioning task at the time when this project was implemented.
 
 **Note**: The provided extracted features and the reproduced results are not obtained using TSN sampling as in the CLIP4Caption paper. However, even without TSN sampling, i.e., only using original sampling method in CLIP4Clip, it is found that the similar (even slightly better) performance results can be achieved as in the CLIP4Caption paper. While reproducing the results, it was observed that using TSN sampling could not achieve the similar performance results as in the paper.
 
