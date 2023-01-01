@@ -47,6 +47,7 @@ def get_args():
     parser.add_argument('--frame_order', type=int, choices=[0,1,2], default=0, help='0: normal order; 1: reverse order; 2: random order.')
     parser.add_argument('--pretrained_clip4clip_dir', type=str, default='pretrained_clip4clip/', help='path to the pretrained CLIP4Clip model') 
     parser.add_argument('--device', choices=["cpu", "cuda"], type=str, default='cuda', help='cuda or cpu')
+    parser.add_argument('--pretrained_clip_name', type=str, choices=["ViT-B/32", "ViT-B/16"], default="ViT-B/32")
     
     args = parser.parse_args()
     
