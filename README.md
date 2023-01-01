@@ -11,7 +11,7 @@ This is the first unofficial implementation of CLIP4Caption method, which is the
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | CLIP4Caption* (ViT-B/32) | 46.1  | 30.7  | 63.7  | 57.7  | - |
 | CLIP4Caption (ViT-B/32)  | 46.41  | 30.72  | 63.90 | 58.42 | [link](https://drive.google.com/file/d/17p476sL5_KZoQ2h4e1TU7-qWH4VqzReT/view?usp=sharing) |
-| CLIP4Caption (ViT-B/16)  | - | -  | - | - | - |
+| CLIP4Caption (ViT-B/16)  | 48.37 | 31.53  | 65.20 | 61.34 | [link](https://drive.google.com/file/d/1WyLktrWLrHMR_ymt_yQHWd4zyvnWSc71/view?usp=sharing) |
 
 (*) Original results from the paper
 
