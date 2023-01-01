@@ -1,3 +1,5 @@
+# make sure to change the value of INIT_MODEL_PATH
+
 # Setup
 DATATYPE=msrvtt
 N_GPU=1
@@ -6,7 +8,7 @@ N_THREAD=16
 DATA_PATH=../dataset/MSRVTT/MSRVTT_data.json
 CKPT_ROOT=../checkpoints
 # init with the desired model
-INIT_MODEL_PATH=../checkpoints/msrvtt/clip4caption_vit-b-32_model.bin
+INIT_MODEL_PATH=<location to the pretrained model> 
 # Path to the features you extracted from CLIP4Clip
 FEATURES_PATH=../extracted_feats/msrvtt/MSRVTT_CLIP4Clip_features.pickle
 # Tuning Params

@@ -1,5 +1,5 @@
 # Reproducing CLIP4Caption
-This is the first unofficial implementation of CLIP4Caption method.
+This is the first unofficial implementation of CLIP4Caption method, which is the SOTA method in video captioning task at the time when this project was implemented.
 
 **Note**: The provided extracted features and the reproduced results are not obtained using TSN sampling as in the CLIP4Caption paper. However, even without TSN sampling, i.e., only using original sampling method in CLIP4Clip, it is found that the similar (even slightly better) performance results can be achieved as in the CLIP4Caption paper. While reproducing the results, it was observed that using TSN sampling could not achieve the similar performance results as in the paper.
 
@@ -10,7 +10,7 @@ This is the first unofficial implementation of CLIP4Caption method.
 | Method  | BLEU@4 | METEOR | ROUGE-L | CIDEr | Checkpoint |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | CLIP4Caption* (ViT-B/32) | 46.1  | 30.7  | 63.7  | 57.7  | - |
-| CLIP4Caption (ViT-B/32)  | 46.41  | 30.72  | 63.90 | 58.42 | [link](https://github.com/willyfh/clip4caption/raw/main/checkpoints/msrvtt/clip4caption_vit-b-32_model.bin) |
+| CLIP4Caption (ViT-B/32)  | 46.41  | 30.72  | 63.90 | 58.42 | [link](https://drive.google.com/file/d/17p476sL5_KZoQ2h4e1TU7-qWH4VqzReT/view?usp=sharing) |
 | CLIP4Caption (ViT-B/16)  | - | -  | - | - | - |
 
 (*) Original results from the paper
@@ -47,7 +47,7 @@ wget -P ./weight https://github.com/microsoft/UniVL/releases/download/v0/univl.p
 ```
 
 ## Extract the Video Features
-The extracted features are provided [here](https://github.com/willyfh/clip4caption/tree/main/extracted_feats). However if you want to extract the features by yourself, follow the instructions written [here](https://github.com/willyfh/clip4caption/tree/main/feature_extractor)
+The extracted features are provided [here](https://drive.google.com/drive/folders/1GHpAKDNU3qZxzIk6zqdatMjQoGc6Q3_9?usp=sharing). However if you want to extract the features by yourself, follow the instructions written [here](https://github.com/willyfh/clip4caption/tree/main/feature_extractor)
 
 ## Training & Evaluation
 The shell scripts to train and to evaluate the model is provided [here](https://github.com/willyfh/clip4caption/tree/main/scripts). You may need to modify the scripts as per your needs.
