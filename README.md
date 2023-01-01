@@ -47,7 +47,7 @@ wget -P ./weight https://github.com/microsoft/UniVL/releases/download/v0/univl.p
 ```
 
 ## Extract the Video Features
-The extracted features are provided [here](https://github.com/willyfh/clip4caption/tree/main/extracted_feats). However if you want to extract the features by yourself, follow the instructions written [here](https://github.com/willyfh/clip4caption/tree/main/feature_extractor)
+The extracted features are provided [here](https://drive.google.com/drive/folders/1GHpAKDNU3qZxzIk6zqdatMjQoGc6Q3_9?usp=sharing). However if you want to extract the features by yourself, follow the instructions written [here](https://github.com/willyfh/clip4caption/tree/main/feature_extractor)
 
 ## Training & Evaluation
 The shell scripts to train and to evaluate the model is provided [here](https://github.com/willyfh/clip4caption/tree/main/scripts). You may need to modify the scripts as per your needs.
