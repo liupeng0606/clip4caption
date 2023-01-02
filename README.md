@@ -5,6 +5,9 @@ This is the first unofficial implementation of CLIP4Caption method (ACMMM 2021),
 
 **Paper**: Mingkang Tang, Zhanyu Wang, Zhenhua LIU, Fengyun Rao, Dian Li, and Xiu Li. 2021. CLIP4Caption: CLIP for Video Caption. In Proceedings of the 29th ACM International Conference on Multimedia (MM '21). Association for Computing Machinery, New York, NY, USA, 4858–4862. > https://dl.acm.org/doi/10.1145/3474085.3479207
 
+![image](https://user-images.githubusercontent.com/5786636/210189414-aef876e0-38ab-4026-8ece-4a1f803a1005.png)
+
+
 ## Reproduced Results
 ### MSRVTT
 | Method  | BLEU@4 | METEOR | ROUGE-L | CIDEr | Checkpoint |
